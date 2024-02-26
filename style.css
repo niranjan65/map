@@ -1,0 +1,79 @@
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+
+    #map{
+        position: relative;
+    }
+    .board{
+        position: absolute;
+        height: 261px;
+        width: 382px;
+        background-color: rgb(31, 32, 26);
+        bottom: 0;
+        z-index: 1;
+        border-radius: 15px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    
+
+    .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        width: 80vw;
+    }
+
+    .icon{
+        height: 30px;
+        width: 30px;
+    }
+
+    .dotted-line {
+        border-top: 1px dotted #74C11F;
+        width: 35px;
+        height: 0;
+      }
+
+      .profile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80vw;
+      }
+
+    .left{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .man{
+        height: 60px;
+        width: 60px;
+      }
+
+    .icon2{
+        height: 40px;
+        width: 40px;
+    }
+
+    .calls{
+        display: flex;
+        gap: 15px;
+    }
+
+    .info{
+        line-height: 6px;
+    }
+      
+  }
